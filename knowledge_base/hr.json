@@ -1,0 +1,52 @@
+[
+  {
+    "category": "HR",
+    "question": "How many sick leaves do employees receive?",
+    "answer": "Employees receive 8 paid sick leaves annually."
+  },
+  {
+    "category": "HR",
+    "question": "How many casual leaves are available?",
+    "answer": "Employees receive 12 casual leaves per year."
+  },
+  {
+    "category": "HR",
+    "question": "Can unused casual leaves be carried forward?",
+    "answer": "No. Casual leave expires at the end of the year."
+  },
+  {
+    "category": "HR",
+    "question": "What is the work from home policy?",
+    "answer": "Employees may work remotely up to three days per week with manager approval."
+  },
+  {
+    "category": "HR",
+    "question": "How do I apply for leave?",
+    "answer": "Leave requests must be submitted through the HR portal."
+  },
+  {
+    "category": "HR",
+    "question": "What is maternity leave?",
+    "answer": "Eligible employees receive 26 weeks of maternity leave."
+  },
+  {
+    "category": "HR",
+    "question": "What is paternity leave?",
+    "answer": "Eligible employees receive 2 weeks of paternity leave."
+  },
+  {
+    "category": "HR",
+    "question": "How do I update my emergency contact?",
+    "answer": "Update emergency contact information through the HR portal."
+  },
+  {
+    "category": "HR",
+    "question": "What is the dress code?",
+    "answer": "The company follows a smart-casual dress policy."
+  },
+  {
+    "category": "HR",
+    "question": "How do performance reviews work?",
+    "answer": "Performance reviews are conducted twice per year."
+  }
+]

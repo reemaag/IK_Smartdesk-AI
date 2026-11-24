@@ -1,0 +1,29 @@
+SmartDesk AI was implemented using a phased, end-to-end agentic AI architecture built with Python, FastAPI, LangChain, OpenAI GPT-4o, OpenAI Embeddings, ChromaDB, 
+Jira Cloud API, Streamlit, Docker, and Pytest.
+ The implementation began with setting up the backend infrastructure, configuration management, session handling, and API models,
+  followed by the development of a RAG pipeline that ingests HR, IT, Payroll, and Onboarding knowledge-base documents,
+   converts them into vector embeddings using OpenAI Embeddings, and stores them in ChromaDB for semantic retrieval. 
+A RAG Agent powered by GPT-4o generates grounded responses using retrieved context while applying confidence-based escalation logic to avoid hallucinations.
+An orchestration layer consisting of Router, RAG, Ticket, and Status agents was then implemented to classify user intents, route queries, manage multi-turn conversations, 
+maintain conversation history, and handle session memory. 
+When the retrieval confidence falls below the configured threshold, the system automatically enters an escalation workflow, collects employee information, 
+generates a ticket draft, and uses a mandatory human-in-the-loop approval process before creating a Jira ticket. 
+Jira Cloud APIs were integrated to support both ticket creation and status retrieval, enabling real-world IT/HR support operations. 
+A Streamlit-based chat interface was developed for user interaction, while Docker and Docker Compose were used to simplify deployment and environment management. 
+Finally, automated tests were added using Pytest to validate retrieval, ticket creation, status lookup, and session management workflows. 
+This technology stack was selected because it provides strong LLM capabilities, efficient semantic search, scalable API development, seamless ticketing integration,
+ and robust support for agentic workflows required by the SmartDesk AI capstone project.
+
+ SmartDesk AI was implemented as an end-to-end agentic AI helpdesk solution using Python, FastAPI, LangChain, OpenAI GPT-4o, ChromaDB, Jira Cloud API, and Streamlit. 
+ The backend was built with FastAPI to provide scalable REST APIs, while Streamlit was used to create an intuitive chat-based user interface. 
+ A RAG (Retrieval-Augmented Generation) pipeline was implemented using OpenAI embeddings and ChromaDB to store and retrieve IT, HR, Payroll, and Onboarding knowledge-base 
+ documents, ensuring responses are grounded in company policies rather than hallucinated. 
+ GPT-4o was selected as the reasoning engine for intent detection, answer generation, ticket categorization, and priority classification. 
+ A custom orchestration layer was developed to manage conversation flow, route queries between RAG, ticket creation, and ticket status modules, and maintain session state 
+ through a dedicated session manager. 
+ Confidence-based escalation logic automatically triggers support workflows when relevant information cannot be found, while a mandatory human-in-the-loop approval process 
+ ensures tickets are not created without user confirmation. 
+ Jira Cloud APIs were integrated to support both ticket creation and ticket status retrieval, providing real-world ITSM functionality. 
+ Docker and Docker Compose were used to simplify deployment and environment consistency, while Pytest was included for automated testing. 
+ This technology stack was chosen because it provides a good balance of rapid development, production readiness, scalability, strong LLM integration, and direct alignment 
+ with the capstone requirements for RAG, agent orchestration, escalation handling, ticket management, and multi-turn conversational support.

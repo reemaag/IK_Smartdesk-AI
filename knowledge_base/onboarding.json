@@ -1,0 +1,27 @@
+[
+  {
+    "category": "Onboarding",
+    "question": "What happens on my first day?",
+    "answer": "Attend orientation, collect equipment, and complete HR onboarding."
+  },
+  {
+    "category": "Onboarding",
+    "question": "When will I receive my laptop?",
+    "answer": "Laptops are typically issued during first-day onboarding."
+  },
+  {
+    "category": "Onboarding",
+    "question": "What is the probation period?",
+    "answer": "The probation period is six months."
+  },
+  {
+    "category": "Onboarding",
+    "question": "How do I access company systems?",
+    "answer": "Credentials are provided through the onboarding email."
+  },
+  {
+    "category": "Onboarding",
+    "question": "Who is my onboarding buddy?",
+    "answer": "Your manager will assign an onboarding buddy before your start date."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "category": "Payroll",
+    "question": "When is payday?",
+    "answer": "Salaries are credited on the last working day of each month."
+  },
+  {
+    "category": "Payroll",
+    "question": "How do I download payslips?",
+    "answer": "Payslips are available in the HR portal."
+  },
+  {
+    "category": "Payroll",
+    "question": "How do I submit tax declarations?",
+    "answer": "Tax declarations must be submitted through the payroll portal."
+  },
+  {
+    "category": "Payroll",
+    "question": "When are tax proofs due?",
+    "answer": "Tax proofs must be submitted by January 31 each year."
+  },
+  {
+    "category": "Payroll",
+    "question": "How do I update bank details?",
+    "answer": "Bank account updates can be made in the HR portal."
+  }
+]

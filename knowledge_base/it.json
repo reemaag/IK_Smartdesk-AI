@@ -1,0 +1,52 @@
+[
+  {
+    "category": "IT",
+    "question": "How do I reset my password?",
+    "answer": "Visit the Self-Service Password Portal and use Forgot Password."
+  },
+  {
+    "category": "IT",
+    "question": "How do I connect to VPN?",
+    "answer": "Install GlobalProtect and sign in using company credentials."
+  },
+  {
+    "category": "IT",
+    "question": "How do I request software access?",
+    "answer": "Submit a request through the IT Service Portal."
+  },
+  {
+    "category": "IT",
+    "question": "How do I set up MFA?",
+    "answer": "Register Microsoft Authenticator in the Security Portal."
+  },
+  {
+    "category": "IT",
+    "question": "How do I connect to guest WiFi?",
+    "answer": "Use the network Guest-WiFi and enter the access code provided at reception."
+  },
+  {
+    "category": "IT",
+    "question": "How do I map a shared drive?",
+    "answer": "Follow the steps in the Company Storage Guide."
+  },
+  {
+    "category": "IT",
+    "question": "How do I access Jira?",
+    "answer": "Navigate to the company Jira URL and authenticate with SSO."
+  },
+  {
+    "category": "IT",
+    "question": "How do I install Microsoft Office?",
+    "answer": "Microsoft Office can be installed via Software Center."
+  },
+  {
+    "category": "IT",
+    "question": "How do I unlock my account?",
+    "answer": "Wait 15 minutes or reset your password using the password portal."
+  },
+  {
+    "category": "IT",
+    "question": "How do I access email on mobile?",
+    "answer": "Use Outlook Mobile and sign in with your corporate credentials."
+  }
+]
